@@ -1,7 +1,7 @@
 # Blood-Brain-Barrier-Permeability-Prediction
 Blood-brain barrier (BBB) permeability is an important property for the drugs that act on central nervous system. In attempt to predict the the BBB permeability of compounds we applied Machine learning techniques e.g. SVM, kNN, RF and NB. 
 
-A. Description of files in BBB.zip:
+A. Description of files in BBB.rar:
 1. Script file : bbb_script.py
 2. User input : smiles.smi
 3. Prediction model : svm_model.sav
