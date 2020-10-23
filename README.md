@@ -5,10 +5,14 @@ Step 1
 Install Anaconda3-5.2 or above.
 
 Step 2
-Install or upgrade following libraries (python, numpy, tensorflow, keras, scikit-learn).
+Install or upgrade following libraries (python, numpy, scikit-learn).
 
 Step 3
-Prepare input file (user_input.csv). Calculate molecular properties and fingerprints from SMILES format of a chemical compound using software’s like PaDel, alvaDesc, DRAGON, etc. and save as user_input.csv. Keep the header information (first row) as such in input file.
+Download and unzip the BBB.zip file. 
 
 Step 4
-Change value of path variable in bbb_script.py available here and execute the script.
+Save SMILES notation of your compounds in "smiles.smi" file in the extracted folder
+
+Step 5
+Change value of path variable in bbb_script.py and execute the script.
+(Features will be automatically calculated using PaDEL software and SVM model(svm_model.sav) will be executed for prediction)
