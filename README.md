@@ -12,7 +12,7 @@ Step 1: Install Anaconda3-5.2 or above.
 
 Step 2: Install or upgrade following libraries (python, numpy, scikit-learn).
 
-Step 3: Download and unzip the BBB.zip file. 
+Step 3: Download and extract the BBB.rar file. 
 
 Step 4: Save SMILES notation of your compounds in "smiles.smi" file in the extracted folder
 
