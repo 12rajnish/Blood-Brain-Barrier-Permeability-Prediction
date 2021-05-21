@@ -5,8 +5,7 @@ A. Description of files in BBB.rar:
 1. Script file : bbb_script.py
 2. User input : smiles.smi
 3. Prediction model : svm_model.sav
-4. Dataset:data.zip
-5. Feature Calculation software: PaDEL
+4. Feature Calculation software: PaDEL
 
 B. Execution Steps:
 Step 1: Install Anaconda3-5.2 or above.
@@ -15,8 +14,6 @@ Step 2: Install or upgrade following libraries (python, numpy, scikit-learn).
 
 Step 3: Download and extract the BBB.rar file. 
 
-Step 4: Extract the data.zip and keep it in the DeePred-BBB folder.
+Step 4: Save SMILES notation of your compounds in "smiles.smi" file in the extracted folder
 
-Step 5: Save SMILES notation of your compounds in "smiles.smi" file in the extracted folder
-
-Step 6: Change value of path variable in bbb_script.py and execute the script. (Features will be automatically calculated using PaDEL software and SVM model(svm_model.sav) will be executed for prediction)
+Step 5: Change value of path variable in bbb_script.py and execute the script. (Features will be automatically calculated using PaDEL software and SVM model(svm_model.sav) will be executed for prediction)
